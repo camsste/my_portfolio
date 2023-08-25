@@ -1,27 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+ 
+
+@font-face {
+    font-family: "Britany";
+    src: url(BrittanySignature.ttf);
+}
+
+
 section {
 
-    border-bottom: 2px solid #fadaf7;
+
     width: 90vw;
     margin: auto;
+    
 }
 h1 {
-    color: #fa53cd;
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    color: aliceblue;
+    font-family: Britany;
+    font-size: 40px;
     text-align: center;
-    background: linear-gradient(to right, #FF68D6, rgb(255, 255, 255), #ffffff, #ffffff);
+    background: linear-gradient(to right, #BF7330, #D99A4E, #BF7330);
     width: 90vw;
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
-    font-style:
-
+    margin-top: 0%;
 }
 
 p, li {
-    font-family: 'Poppins', sans-serif;
+    font-family: "poppins";
+    font-weight: 300;
     font-size: 25px;
     text-align: center;
     color: aliceblue;
@@ -45,6 +54,7 @@ img {
 
 a {
     font-family: 'Poppins', sans-serif;
+    font-weight: 300;
     font-size: 25px;
     text-align: center;
     display: block;
@@ -52,14 +62,15 @@ a {
 }
 
 body {
-    background-color: #FF68D6
+    background-color: #BF7330
 }
 
 .CAMILINHA9{
     color: #ffffff;
-    font-family:'Poppins', sans-serif;
-    font-size: 2.8em;
+    font-family:Britany;
     background: unset;
     border-radius: unset;
-    font-size: 50px;
+    font-size: 120px;
+    margin: auto;
+    height: 250px;
 }
